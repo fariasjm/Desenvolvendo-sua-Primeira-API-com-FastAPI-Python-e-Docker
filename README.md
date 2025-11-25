@@ -48,5 +48,9 @@ Este Desafio de Projeto é um exemplo prático e simplificado de como utilizar F
         docker build -t fastapi-docker .
         docker run -p 8000:8000 fastapi-docker
 
+  - Testando a API
+    Para testar sua API faça uma solicitação GET para a URL http://localhost:8000.
+    Você deve receber a seguinte resposta:
 
+        {"message": "Criando API WorkoutAPI"}
 
