@@ -16,19 +16,12 @@ Este Desafio de Projeto é um exemplo prático e simplificado de como utilizar F
 
 ### Criando o Projeto FastAPI
   - Crie uma pasta para o projeto:
-      mkdir fastapi-docker
-      cd fastapi-docker
+
+        mkdir fastapi-docker
+        cd fastapi-docker
     
   - Crie o arquivo Python main.py:
-
-      from fastapi import FastAPI
-    
-      app = FastAPI()
-    
-      @app.get("/")
-    
-      async def root():
-
+     
         from fastapi import FastAPI
         app = FastAPI()
         @app.get("/")
