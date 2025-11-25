@@ -20,6 +20,7 @@ Este Desafio de Projeto é um exemplo prático e simplificado de como utilizar F
       cd fastapi-docker
     
   - Crie o arquivo Python main.py:
+
       from fastapi import FastAPI
       app = FastAPI()
 
