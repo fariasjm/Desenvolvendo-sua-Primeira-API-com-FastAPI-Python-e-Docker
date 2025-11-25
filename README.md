@@ -28,7 +28,11 @@ Este Desafio de Projeto é um exemplo prático e simplificado de como utilizar F
       @app.get("/")
     
       async def root():
-    
+
+        from fastapi import FastAPI
+        app = FastAPI()
+        @app.get("/")
+        async def root():
           return {"message": "Hello, World!"}
 
 
